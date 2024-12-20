@@ -10,19 +10,19 @@ import { Badge } from '@/components/ui/badge';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Drone Technology Intern',
-      company: 'Tech Innovations Lab',
-      period: 'Summer 2023',
-      description: 'Worked on developing autonomous drone systems and implementing advanced navigation algorithms.',
+      title: <a href="https://docs.google.com/document/d/1qAfaRtIF8B-u5tsI9R9FD8K7kVKMHEIbaxBMlScHM6k/edit?usp=drivesdk" target='_blank'>Drone Technology Intern</a>,
+      company: 'Aerosense Technologies',
+      period: 'Jan-Feb 2024',
+      description: 'Built a drone at Aerosense using Carbon Fiber, Fight controller, Propellers, Motor and Battery.',
       skills: ['Drone Programming', 'Sensor Integration', 'Flight Control'],
     },
-    {
-      title: 'IoT Research Assistant',
-      company: 'ABES Engineering College',
-      period: '2023 - Present',
-      description: 'Conducting research on IoT applications in smart agriculture and environmental monitoring.',
-      skills: ['IoT Protocols', 'Sensor Networks', 'Data Analysis'],
-    },
+    // {
+    //   title: 'IoT Research Assistant',
+    //   company: 'ABES Engineering College',
+    //   period: '2023 - Present',
+    //   description: 'Conducting research on IoT applications in smart agriculture and environmental monitoring.',
+    //   skills: ['IoT Protocols', 'Sensor Networks', 'Data Analysis'],
+    // },
   ];
 
   return (

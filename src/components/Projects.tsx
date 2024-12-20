@@ -11,16 +11,16 @@ import { Cpu, Wifi, Radio } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'Autonomous Drone System',
-      description: 'Developed an autonomous drone system with advanced navigation capabilities and obstacle avoidance.',
+      title: 'Aerothon 2024',
+      description: 'Developed an autonomous UAV, H configuration drone system with navigation capabilities and object detection using Raspberry Pi 5',
       icon: <Radio className="h-6 w-6 text-emerald-400" />,
-      tags: ['Drone Technology', 'Arduino', 'Sensors', 'C++'],
+      tags: ['Drone Technology', 'Arduino', 'Sensors', 'Matlab', 'Yolov8', 'Mission-Planner', 'Foxxer Camera', "Lidar"],
     },
     {
-      title: 'IoT Weather Station',
-      description: 'Created a smart weather monitoring system using various sensors and cloud connectivity.',
+      title: 'ESC Formation',
+      description: 'Formed a ESC using scratch, designed PCB in KiCad.',
       icon: <Wifi className="h-6 w-6 text-emerald-400" />,
-      tags: ['IoT', 'ESP32', 'MQTT', 'Cloud'],
+      tags: ['IoT', 'ESP32','KiCad', 'PCB Design'],
     },
     {
       title: 'VLSI Design Project',

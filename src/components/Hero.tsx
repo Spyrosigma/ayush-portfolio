@@ -9,7 +9,7 @@ const Hero = () => {
             <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-transparent bg-clip-text">
               Electronics Engineer
             </span>
-            <br />& IoT Enthusiast
+            <br />& VLSI Designer
           </h1>
           <p className="text-gray-400 text-lg md:text-xl mb-8">
             ECE Student at ABES Engineering College (2022-26) passionate about VLSI,
@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://drive.google.com/file/d/your-demo-resume-link/view"
+              href="https://docs.google.com/document/d/1Wtc5XZnYiKA5_vIf91FDf67ykvlGjpojBN8b8uPW8xc/edit?usp=drivesdk"
               target="_blank"
               className="bg-emerald-600 hover:bg-emerald-700 inline-flex items-center px-4 py-2 rounded-md text-white"
             >
